@@ -16,7 +16,7 @@ numero_1 = int(input())
 
 print('Ingrese por consola el segundo número entero a operar:')
 numero_2 = int(input())
-
+3
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
 
