@@ -18,14 +18,14 @@ palabra_2 = str(input())
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
 
-recorte_1= palabra_1[0] + palabra_1[1] + palabra_1[2]
+recorte_1= palabra_1[0:3]
 
 
 
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 
 
-recorte_2= palabra_2[0] + palabra_2[1] + palabra_2[2]
+recorte_2= palabra_2[0:3]
 
 
 # Formar una nueva palabra con los recortes solicitados
