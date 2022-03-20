@@ -24,7 +24,6 @@ recorte_1= palabra_1[0:3]
 
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 
-
 recorte_2= palabra_2[0:3]
 
 

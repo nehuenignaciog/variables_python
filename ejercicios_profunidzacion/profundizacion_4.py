@@ -46,18 +46,22 @@ Cualquier duda con el método split pueden consultarla por el campus
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
 
+# Solicito ingresar los nombres de sus padres. 
 print("Ingrese el nombre completo de su primer Padre/Madre")
 padre_1=str(input())
-
 print("Ingrese el nombre completo de su segundo Padre/Madre")
 padre_2=str(input())
 
 
-print("Ingrese el nombre nombre del hijo")
+# Solicito ingresar el nombre del hijo
+print("Ingrese el nombre nombre del hijo / hija")
 nombre_hijo=str(input())
 
+# Separo el nombre y apellido de los padres en variables distintas
 nombre_1 , apellido_1=padre_1.split(" ")
 
 nombre_2 , apellido_2=padre_2.split(" ")
 
+
+# Combino e imprimo el nombre del hijo con el apellido de sus padres.
 print ("Nombre combinado:", nombre_hijo ,apellido_1,apellido_2)

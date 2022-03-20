@@ -12,18 +12,19 @@
 numero_1 = 5
 numero_2 = 7
 
-suma= numero_1+numero_2
-
-resta=numero_1 - numero_2
 
 # Realizar la suma de las dos variables
 # numero_1 y numero_2
 # Almacenar el valor de la suma en una variable
 # ej:
 # operacion = .....
+suma= numero_1+numero_2
 
-# Imprimir en pantalla el resultado de la suma
+resta=numero_1 - numero_2
+# Imprimir en pantalla el resultado de la suma.
 # print(....)
 print (suma)
+
+
 # Repita el procedimiento para realizar la resta
 print (resta)

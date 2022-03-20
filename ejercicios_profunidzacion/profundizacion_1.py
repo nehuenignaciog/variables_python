@@ -32,22 +32,21 @@ E) Exponente/Potencia
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
 
+# Solicito numeros reales para realizar las operaciones de la calculadora
 print ('Ingrese primer numero')
-
 numero_1= float(input())
-
 print ('Ingrese segundo numero')
-
-
 numero_2= float(input())
 
-
+# Realizo las opraciones con los numeros ingresados, guardandolos cada uno en una variable
 
 Suma = numero_1 + numero_2
 Resta= numero_1 - numero_2
 Multiplicación = numero_1 * numero_2
 División = numero_1 / numero_2
 Potencia  = numero_1 ** numero_2
+
+#Imprimo los resultados con elf ormato ejemplo  "La suma entre 4.2 y 6.5 es 10.7"
 
 print ("La suma entre", numero_1 , "y", numero_2, "es", Suma)
 print ("La Resta entre", numero_1 , "y", numero_2, "es", Resta)

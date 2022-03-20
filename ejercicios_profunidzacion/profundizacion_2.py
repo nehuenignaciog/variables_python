@@ -34,20 +34,18 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
 
+# Solicito los datos personales y los guardo en variables
 print("Por favor ingrese su nombre completo")
-
 nombre=str(input())
-
 print("Por favor ingrese su DNI ")
 dni=int(input())
-
 print("Por favor ingrese su Edad ")
-
 edad=int(input())
-
 print("Por favor ingrese su Altura ")
-
 altura=float(input())
+
+
+# Imprimo en dos lineas los datos ingresados
 
 print ( "Nombre Completo:", nombre , "DNI:", dni)
 print ("Nombre Completo:", nombre , "Edad:", edad, "Altura:", altura)

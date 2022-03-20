@@ -39,10 +39,14 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
 
-print("Por favor ingrese su nombre completo")
 
+# Solicito ingresar un nombre y lo guardo en una variable
+print("Por favor ingrese su nombre completo")
 nombre=str(input())
 
+# Imprimo el nombre ingresado en minúscula
 print (nombre.lower())
+# Imprimo el nombre ingresado en mayúscula
 print (nombre.upper())
+# Imprimo el nombre con la primer letra en mayúscula y el resto en minúscula
 print (nombre.capitalize())
