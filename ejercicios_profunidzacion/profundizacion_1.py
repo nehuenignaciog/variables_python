@@ -38,21 +38,45 @@ numero_1= float(input())
 print ('Ingrese segundo numero')
 numero_2= float(input())
 
+# Solicito ingresar operacion deseada
+
+print ('Seleccione la operación deseada ingresando la letra correspondiente')
+print (" A) Suma \n B) Resta \n C) Multiplicación \n D) División \n E) Exponente/Potencia")
+opcion=str(input()).upper()
+while  opcion != "A" and  opcion != "B" and  opcion != "C" and  opcion != "D" and  opcion != "E"  :
+  print ('Por favor seleccione una opcion correcta')
+  print (" A) Suma \n B) Resta \n C) Multiplicación \n D) División \n E) Exponente/Potencia")
+  opcion=str(input()).upper()
+
+
 # Realizo las opraciones con los numeros ingresados, guardandolos cada uno en una variable
+if opcion=="A":
+  Operacion = numero_1 + numero_2
+  Operacion_descripcion= "Suma"
+elif opcion=="B":
+  Operacion = numero_1 - numero_2
+  Operacion_descripcion= "Resta"
+elif opcion=="C":
+  Operacion =  numero_1 * numero_2
+  Operacion_descripcion= "Multiplicación"
+elif opcion=="D":
+  Operacion = numero_1 / numero_2
+  Operacion_descripcion= "División"
+elif opcion=="E":
+  Operacion = numero_1 ** numero_2
+  Operacion_descripcion= "Potencia"
+else:
+  print ("Por favor ingrese una opcion incorrecta")
 
-Suma = numero_1 + numero_2
-Resta= numero_1 - numero_2
-Multiplicación = numero_1 * numero_2
-División = numero_1 / numero_2
-Potencia  = numero_1 ** numero_2
+# #Imprimo los resultados con elf ormato ejemplo  "La suma entre 4.2 y 6.5 es 10.7"
 
-#Imprimo los resultados con elf ormato ejemplo  "La suma entre 4.2 y 6.5 es 10.7"
+print ("La", Operacion_descripcion ,"entre", numero_1 , "y", numero_2, "es", Operacion)
 
-print ("La suma entre", numero_1 , "y", numero_2, "es", Suma)
-print ("La Resta entre", numero_1 , "y", numero_2, "es", Resta)
-print ("La Multiplicación entre", numero_1 , "y", numero_2, "es", Multiplicación)
-print ("La División entre", numero_1 , "y", numero_2, "es", División)
-print ("La Potencia entre", numero_1 , "y", numero_2, "es", Potencia)
+
+
+
+
+
 
 
 
