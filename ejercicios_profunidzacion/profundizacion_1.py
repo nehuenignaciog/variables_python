@@ -40,6 +40,8 @@ numero_2= float(input())
 
 # Solicito ingresar operacion deseada
 
+
+
 print ('Seleccione la operación deseada ingresando la letra correspondiente')
 print (" A) Suma \n B) Resta \n C) Multiplicación \n D) División \n E) Exponente/Potencia")
 opcion=str(input()).upper()
@@ -65,8 +67,7 @@ elif opcion=="D":
 elif opcion=="E":
   Operacion = numero_1 ** numero_2
   Operacion_descripcion= "Potencia"
-else:
-  print ("Por favor ingrese una opcion incorrecta")
+
 
 # #Imprimo los resultados con elf ormato ejemplo  "La suma entre 4.2 y 6.5 es 10.7"
 
