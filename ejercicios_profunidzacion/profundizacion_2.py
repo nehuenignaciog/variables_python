@@ -36,7 +36,7 @@ print('Sistema de ingreso de datos')
 
 # Solicito los datos personales y los guardo en variables
 print("Por favor ingrese su nombre completo")
-nombre=str(input())
+nombre_completo=str(input())
 print("Por favor ingrese su DNI ")
 dni=int(input())
 print("Por favor ingrese su Edad ")
@@ -47,5 +47,5 @@ altura=float(input())
 
 # Imprimo en dos lineas los datos ingresados
 
-print ( "Nombre Completo:", nombre , "DNI:", dni)
-print ("Nombre Completo:", nombre , "Edad:", edad, "Altura:", altura)
+print ( "Nombre Completo:", nombre_completo , "DNI:", dni)
+print ("Nombre Completo:", nombre_completo , "Edad:", edad, "Altura:", altura)
